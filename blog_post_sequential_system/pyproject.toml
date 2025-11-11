@@ -1,0 +1,14 @@
+[project]
+name = "blog-post-sequential-system"
+version = "0.1.0"
+description = "Example 3.1 sequential blog pipeline built with ADK and uv."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "google-adk>=1.18.0",
+  "google-genai>=0.3",
+  "python-dotenv",
+]
+
+[tool.uv]
+package = false
